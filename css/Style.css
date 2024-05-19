@@ -1,0 +1,271 @@
+/*------------------------------------------------ CSS HOME PAGE----------------------------------------------------- */
+
+    .dark-overlay::before {
+      content: "";
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .transparent-div{
+      padding: 10px;
+    }
+    .text-overlay{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    .text-h1{
+      font-size: 58px;
+    }
+     .button-type{
+       padding: 5px 50px;
+     }
+    .text-overlayh2{
+      position: absolute;
+      top: 99%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+/*--------------------------------------------- CSS PÁGINA LOGIN----------------------------------------------------- */
+
+    .text-overlayp{
+      color: white;
+      position: absolute;
+      top: 36%;
+      left: 10%;
+      ransform: translate(-50%, -50%);
+    }
+    .input-group{
+      border-radius: 10px;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+      ransform: translate(-50%, -50%);
+
+    }
+    .text-overlayp2{
+      color: white;
+      position: absolute;
+      top: 46%;
+      left: 10%;
+      ransform: translate(-50%, -50%);
+    }
+    .input-group2{
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      ransform: translate(-50%, -50%);
+    }
+    .input-conf{
+      background-color: rgba(-1, 0, 0, 0.5);
+      color: white;
+    }
+    .button-type2{
+      border-radius: 10px;
+      position: absolute;
+      top: 57%;
+      left: 10%;
+      ransform: translate(-50%, -50%);
+    }
+    .custom-button{
+      width: 190px;
+    }
+    .text-overlayp3{
+      color: white;
+      position: absolute;
+      top: 63%;
+      left: 12.4%;
+      ransform: translate(-50%, -50%);
+    }
+
+/*---------------------------------------- CSS PÁGINA CONFIGURAÇÃO PÓRTICO------------------------------------------- */
+
+    .input-select{
+      width: 25%;
+    }
+    .input-select2{
+      top: 55%;
+      width: 25%;
+    }
+    .input-select3{
+      top: 70%;
+      width: 25%;
+    }
+    .custom-button2{
+      top: 100%;
+    }
+    .custom-button3{
+       width: 190px;
+    }
+    .form-select{
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+
+/*------------------------------------------ CSS PÁGINA SYSTEM MONITOR----------------------------------------------- */
+
+    .h1conf{
+      color: white;
+      font-size: 40px;
+      margin-left: 20px;
+    }
+    .h2conf{
+      color: gray;
+      margin-top: 30px;
+    }
+    .p1conf{
+      margin-left: 13px
+    }
+    .image-container{
+      height: 40vh;
+      display: flex;
+    }
+    .text-overlay1{
+      position: absolute;
+      top: 60%;
+      left: 7%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .text-overlay2{
+      position: absolute;
+      top: 60%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .text-overlay3{
+      position: absolute;
+      top: 100%;
+      left: 7%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .text-overlay4{
+      position: absolute;
+      top: 100%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+/*------------------------------------------------ CSS CHATBOX------------------------------------------------------- */
+
+    .chatbox {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 400px;
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      transition: all 0.3s ease;
+    }
+    .chatbox-header {
+      background: #007bff;
+      color: #fff;
+      padding: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      cursor: pointer;
+    }
+    .chatbox-body {
+      padding: 10px;
+      height: 300px;
+      overflow-y: auto;
+      display: none;
+    }
+    .chatbox-footer {
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      display: none;
+    }
+    .chatbox.open .chatbox-body,
+    .chatbox.open .chatbox-footer {
+      display: block;
+    }
+
+    /*------------------------------------ CSS PÁGINA CÂMERA CONFIGURATION------------------------------------------- */
+
+    .text-overlay5{
+      position: absolute;
+      top: 35%;
+      left: 8%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .text-overlay6{
+      position: absolute;
+      top: 35%;
+      left: 38.5%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .text-overlay7{
+      position: absolute;
+      top: 35%;
+      left: 70.5%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .container{
+      display: flex;
+      grid-template-columns: repeat(3, auto);
+      justify-content: center;
+      aligns-items: center;
+    }
+    .form-select-cam{
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+    .container-cam1{
+      margin-left: 0%;
+    }
+    .container-cam2{
+      margin-left: 0%;
+    }
+    .textcam{
+      color: white;
+    }
+    .button-type-cam{
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+
+
+
+
+
